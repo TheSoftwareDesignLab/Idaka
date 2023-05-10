@@ -19,8 +19,8 @@ by related tasks. The users can select one or more tasks they are interested in,
 the platform will show the corresponding practices.</p>
 <p>Finally, as a third way to search, the platform presents a visual way to follow the
 taxonomy of these mentioned relations. The users can select one of the stages, which
-takes them to their description and the list of related tasks. By clicking on one of the
-7 tasks, it shows the associated practices. </p>
+takes them to their description and the list of related tasks. By clicking on one of the tasks, it shows the associated practices. </p>
+
 <img src="/assets/imgs/workflow.png" alt="workflow">
 
 
