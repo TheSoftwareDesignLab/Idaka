@@ -10,7 +10,8 @@ the achievement of good performance of ML-enabled systems. Unlike current approa
 # Idaka functionalities overview
 <p>Three main features are proposed for the user to search according to their needs.
 For the main one, Idaka presents a query based search, it uses 2 possible methodologies.
-First, using a classic IR strategy in which documents relevant to a query are retrieved from a corpus based on a similarity metric.
+First, using a classic IR strategy in which documents relevant to a query are retrieved 
+    from a corpus based on a similarity metric.
 Second, using <a href="https://crfm.stanford.edu/2023/03/13/alpaca.html">Alpaca</a> as generative language model.</p>
 <p>The second and third proposal uses the relations between stages, tasks, and practices
 as a basis. For the second one, Idaka offers a filter for the user to search practices
@@ -18,9 +19,9 @@ by related tasks. The users can select one or more tasks they are interested in,
 the platform will show the corresponding practices.</p>
 <p>Finally, as a third way to search, the platform presents a visual way to follow the
 taxonomy of these mentioned relations. The users can select one of the stages, which
-takes them to their description and the list of related tasks. By clicking on one of the
-7 tasks, it shows the associated practices. </p>
-<img src="/assets/imgs/workflow.png" alt="workflow">
+takes them to their description and the list of related tasks. By clicking on one of the tasks, it shows the associated practices. </p>
+
+<img src="/Idaka/assets/imgs/workflow.png" alt="workflow">
 
 # Idaka web system
 Idaka as a web system publicly available online on [idaka.onrender.com](https://idaka.onrender.com)
