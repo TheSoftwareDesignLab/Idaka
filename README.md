@@ -10,7 +10,8 @@ the achievement of good performance of ML-enabled systems. Unlike current approa
 # Idaka workflow overview
 <p>Three main features are proposed for the user to search according to their needs.
 For the main one, Idaka presents a query based search, it uses 2 possible methodologies.
-First, using a classic IR strategy in which documents relevant to a query are retrieved from a corpus based on a similarity metric.
+First, using a classic IR strategy in which documents relevant to a query are retrieved 
+    from a corpus based on a similarity metric.
 Second, using <a href="https://crfm.stanford.edu/2023/03/13/alpaca.html">Alpaca</a> as generative language model.</p>
 <p>The second and third proposal uses the relations between stages, tasks, and practices
 as a basis. For the second one, Idaka offers a filter for the user to search practices
