@@ -14,8 +14,7 @@ First, using a classic IR strategy in which documents relevant to a query are re
     from a corpus based on a similarity metric.
 Second, using <a href="https://crfm.stanford.edu/2023/03/13/alpaca.html">Alpaca</a> as generative language model.</p>
 <p>The second and third proposal uses the relations between stages, tasks, and practices
-as a basis. For the second one, Idaka offers a filter for the user to search practices
-by related tasks. The users can select one or more tasks they are interested in, and
+as a basis. For the second one, Idaka offers a filter for the user to search practices by related tasks. The users can select one or more tasks they are interested in, and
 the platform will show the corresponding practices.</p>
 <p>Finally, as a third way to search, the platform presents a visual way to follow the
 taxonomy of these mentioned relations. The users can select one of the stages, which
