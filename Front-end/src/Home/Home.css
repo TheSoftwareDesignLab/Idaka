@@ -1,0 +1,22 @@
+.title{
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    font-weight: 500;
+    font-size:1000;
+    color: rgb(255, 255, 255);
+    background-color: #0f0f46;
+    
+    }
+    .subtitle{
+        text-align: center;
+        color: rgb(255, 255, 255);
+        background-color: #0f0f46;
+    }
+    .fondo{
+        padding-top: 15vh;
+        background-color: #0f0f46;
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        
+    }

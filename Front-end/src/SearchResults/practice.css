@@ -1,0 +1,86 @@
+.grid-container{
+    display: flex;
+}
+.practice{
+    margin:0;
+    border: 0;
+}
+
+h3{
+    text-align: "center";
+    margin:auto;
+    padding: 0;
+}
+#card-task{
+    margin:2%;
+    margin-right: 0%;
+    margin-left: 0%;
+    padding: 1%;
+    height: max-content;
+    width: fit-content;
+    max-width: 100%;
+    box-shadow:  0 5px 10px rgba(0, 0, 0, 0.10);
+    background-color: rgba(201, 201, 201, 0.562);
+    border-color: rgba(153, 155, 156, 0.589);
+    font-size: 85%;
+}
+#practice-body{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#practice-title{
+    font-weight: bold;
+    
+}
+.accordion-button{    
+    margin:0;
+    border: 0;
+    background-color: rgb(243, 240, 205);
+}
+.accordion-button:not(.collapsed) {
+    color: black;
+    background-color: rgb(196, 192, 148);;
+}
+.accordion-button.collapsed::after {
+    color: black;
+    
+}
+.accordion-button:not(.collapsed)::after {
+    /* background-image: var(--bs-accordion-btn-active-icon); */
+    transform: var(--bs-accordion-btn-icon-transform);
+}
+
+#likes{
+    margin:0%;
+    align-items: flex-end;
+    height: max-content;
+    position: absolute;
+    right: inherit;
+    display:inline-block;
+    vertical-align: bottom;
+}
+img.like{
+    margin:2%;
+    margin-left: 1%;
+    width:8%;
+
+}
+img.like:hover{
+    cursor: pointer
+}
+img.dislike{
+    margin:2%;
+    margin-left: 15%;
+    margin-right: 1%;
+    width:8%;
+
+}
+img.dislike:hover{
+    cursor: pointer
+}
+.accordion {
+    --bs-accordion-btn-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='black'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='black'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    --bs-accordion-btn-focus-border-color: white;
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(217, 219, 221, 0.25);
+}

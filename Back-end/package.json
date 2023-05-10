@@ -1,0 +1,25 @@
+{
+  "name": "Back-end",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "dalai": "^0.3.1",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "~4.16.1",
+    "fs": "^0.0.1-security",
+    "https": "^1.0.0",
+    "matplotlib": "^1.0.0",
+    "mongodb": "^4.11.0",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.20",
+    "openssl": "^2.0.0",
+    "pandas": "^0.0.3",
+    "python-shell": "^3.0.1"
+  }
+}

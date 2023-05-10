@@ -1,0 +1,58 @@
+#imgSpark {
+  margin: 2%;
+  width: 130px;
+  margin-bottom: 0%;
+}
+#imgSpark:hover {
+  cursor: pointer;
+}
+#rate-card {
+  width: 17%;
+  text-align: center;
+  height: auto;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 1.3%;
+  margin-right: 0.5%;
+  box-shadow: 15px 15px 25px #000;
+}
+.sparck .toast {
+  position: fixed;
+  bottom: 0;
+  left: 130px;
+  margin-bottom: 11%;
+  z-index: 20;
+  width: 17%;
+  margin-right: 0.5%;
+  background-color: whitesmoke;
+  border-color: whitesmoke;
+}
+.sparck .toast-body{
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+}
+
+.sparck {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: fit-content;
+}
+#ok{
+    padding: 1%;
+    padding-left: 3.5%;
+    padding-right: 3.5%;
+    margin: 0%;
+    background-color: rgb(162, 218, 207);
+    border-color: rgb(162, 218, 207);
+    margin-left: 83%;
+    color: rgb(83, 83, 83);
+    margin-bottom: 1%;
+    margin-top: -5%;
+}
+#ok:hover{
+    background-color: rgb(36, 117, 101);
+    border-color: rgb(36, 117, 101);
+    color:white;
+}

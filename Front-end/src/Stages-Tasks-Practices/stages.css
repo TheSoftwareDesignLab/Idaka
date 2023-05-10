@@ -1,0 +1,62 @@
+
+body{
+    background-color:  #0f0f46;
+    background-image: url("Tesis-Lau.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-position-y: 50px;
+    background-position-x: -1.5vw;
+    background-attachment: fixed;
+    background-size:100%;
+    font-family: "Quicksand";
+}
+.practice{
+    margin:0%;
+    border:0
+}
+.accordion{
+    margin:2%;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+}
+
+/* .accordion-button{    
+    margin:0;
+    border: 0;
+    background-color: rgb(221, 236, 247);
+} */
+h3{
+
+    margin:auto;
+    padding: 0;
+    text-align: "center";
+}
+.contenedor-stages {
+    margin: 5%;
+    margin-left: 10%; 
+    margin-top: 8%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+}
+#title-stages{
+background-color: #0f0f46;
+margin-top: 10%;
+color: whitesmoke;
+}
+#scroll-up{
+    position: fixed;
+    bottom: 0;
+right: 0;
+margin-bottom: 1.5%;
+margin-right: 0.8%;
+padding: 0%;
+box-shadow: 15px 15px 25px #000
+; 
+background-color: rgb(51, 124, 112);
+border-color: rgb(51, 124, 112);
+}
+#scroll-up:hover{
+background-color: rgb(40, 95, 86);
+border-color: rgb(40, 95, 86);
+}

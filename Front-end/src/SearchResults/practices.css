@@ -1,0 +1,26 @@
+
+body{
+    background-color:  #0f0f46;
+}
+.practice{
+    margin:0%;
+    border:0
+}
+.accordion{
+    margin:2%;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+}
+
+/* .accordion-button{    
+    margin:0;
+    border: 0;
+    background-color: rgb(221, 236, 247);
+} */
+h3{
+
+    margin:auto;
+    padding: 0;
+    text-align: "center";
+}

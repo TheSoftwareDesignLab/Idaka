@@ -1,0 +1,117 @@
+#tasks {
+  box-shadow: 5px 5px 10px rgb(22, 19, 31);
+  position: inherit;
+  margin: 5%;
+  width: 95%;
+  border-radius: 10px;
+  height: 250px;
+  color: black;
+  background-color: rgb(221, 245, 241);
+}
+#tasks:hover {
+  cursor: pointer;
+}
+
+#task-body {
+  padding-top: 2%;
+  text-align: left;
+  padding-right: 2%;
+  overflow: auto;
+}
+#task-title {
+  font-weight: 500;
+  text-align: left;
+  margin-left: 0;
+}
+
+/* .pop{
+    visibility: hidden;
+}
+.pop.active{
+    visibility: visible;
+} */
+.pop-bg {
+  background-color: rgb(221, 245, 241);
+  margin-top: 10%;
+  max-height: 75%;
+  overflow: auto;
+  color: black;
+  border-radius: 5px;
+}
+.pop-bg h4 {
+  margin: 8%;
+  margin-bottom: 3%;
+}
+#close {
+  margin: 4%;
+  margin-left: 8%;
+  background-color: rgb(40, 95, 86);
+  border-color: rgb(40, 95, 86);
+}
+#close-no{
+  margin: 4%;
+  margin-top: 2%;
+  margin-left: 43%;
+  background-color: rgb(40, 95, 86);
+  border-color: rgb(40, 95, 86);
+}
+.pop {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100vw;
+  height: 100vh;
+  padding: 50px;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
+  background: rgb(0, 0, 0, 0.5);
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+}
+#content-popup {
+  position: fixed;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 50px;
+  max-height: 70%;
+  width: 50%;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
+  background-color: white;
+  visibility: inherit;
+  opacity: inherit;
+  transition: 0.5s;
+  overflow: auto;
+  border-radius: 10px;
+}
+.pop.active {
+  visibility: visible;
+  opacity: 1;
+  transition: 0.5s;
+}
+.pop-bg .accordion-button {
+  margin: 0;
+  border: 0;
+  background-color: rgb(68, 156, 142);
+  color: white;
+}
+.pop-bg .accordion-button:not(.collapsed) {
+  color: white;
+  background-color: rgb(40, 95, 86);
+}
+
+.pop-bg .accordion {
+  margin: 0%;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+.pop-bg .accordion {
+  --bs-accordion-btn-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  --bs-accordion-btn-focus-border-color: white;
+  --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(217, 219, 221, 0.25);
+}
+.blockquote-footer{
+    margin-top: 1%;
+}

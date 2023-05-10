@@ -1,0 +1,59 @@
+.search-bar{
+    padding: 1cm;
+    padding-bottom: 0.7cm;
+    /*background-color:rgb(217, 237, 250)*/
+    background-color:rgb(220, 248, 250)
+    ;
+    border-radius: 15px;
+    margin: 25px auto;
+    box-shadow: 15px 15px 25px #000
+    ; 
+    position: inherit;
+    margin:0;
+    margin-bottom: 3%;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+.btn-search{
+    size: "sm";
+    background-color: rgb(136, 136, 136);
+    font-family: "Quicksand";
+}
+.btn-search:disabled{
+    size: "sm";
+    background-color: darkgrey;
+    font-family: "Quicksand";
+}
+
+.drop-search{
+    background-color: rgb(136, 136, 136);
+    font-family: "Quicksand";
+    color:white
+}
+.btn-search:hover{
+    size: "sm";
+    background-color: rgb(68, 67, 67);
+    color:white
+}
+.background{
+    padding: 14%;
+margin:0;
+    background-image: url("VectorAzulito.png");
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#alpaca{
+        margin: 15%;
+        margin-top:12vh;
+        background: aliceblue;
+}
+
+.search-bar .dropdown-toggle{
+    background-color: rgb(136, 136, 136);
+    font-family: "Quicksand";
+    border: none;
+}
+.select#model{
+    text-align: center;
+}

@@ -1,0 +1,54 @@
+#about-title{
+    color: white;
+    margin-top: 3%;
+    background-color:#0f0f46 ;
+    
+}
+#about-p{
+    color: white;
+    margin: 13%;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    background-color:#0f0f46 ;
+    font-size:20px;
+}
+#team-title{
+    color: white;
+    margin-top: 3%;
+    background-color:#0f0f46 ;
+    
+}
+.contenedor-team {
+    margin: 5%;
+    margin-left: 12%; 
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(370px, auto));
+    
+}
+.contenedor-team .card{
+    width: 300px;
+    height: 520px;
+
+}
+.contenedor-team .card-title{
+    font-weight: bold;
+
+}
+.img-team{
+    height: 280px;
+    width: 280px;
+    margin-left: 3.5%;
+    border-radius: 5px;
+}
+dt{
+    font-weight: normal;
+    font-size: smaller;
+}
+dl{
+    margin-top: 5%;
+}
+#content-about{
+    
+    margin-top: 6%;
+}

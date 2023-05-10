@@ -1,0 +1,44 @@
+
+.practice{
+    margin:0%;
+    border:0
+}
+.accordion{
+    margin:2%;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+}
+
+/* .accordion-button{    
+    margin:0;
+    border: 0;
+    background-color: rgb(221, 236, 247);
+} */
+h3{
+
+    margin:auto;
+    padding: 0;
+    text-align: "center";
+}
+.card{
+    margin:3%;
+    height:270px;
+    width: 270px;
+    box-shadow: 5px 5px 10px rgb(22, 19, 31)
+    ; 
+    position: inherit;
+    margin:0;
+    margin-bottom: 10%;
+
+}
+.card-title{
+    font-size: 110%;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+
+}
+#filter-card{
+    flex-direction:column;
+}

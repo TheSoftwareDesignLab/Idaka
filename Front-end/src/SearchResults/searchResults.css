@@ -1,0 +1,101 @@
+
+.background2{
+
+    height: 100%;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-family: "Quicksand";
+}
+
+.accordion{
+    margin:2%;
+    margin-left: 21%;
+    margin-right: 21%;
+    
+}
+
+/* .accordion-button{    
+    margin:0;
+    border: 0;
+    background-color: rgb(221, 236, 247);
+} */
+
+body{
+    background-image: url("Tesis-Laulalalala.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#query{
+    margin-top: 10%;
+    text-align: center;
+    color: whitesmoke;
+    background-color: #0f0f46;
+}
+.more{
+    background-color: rgb(186, 236, 227);
+    color: black;
+    border-color:  rgb(186, 236, 227);
+    margin: 1%;
+    width: 150px;
+    margin-bottom: 10%;
+}
+.more:hover{
+    background-color: rgb(69, 168, 150);
+    border-color:  rgb(69, 168, 150);
+
+}
+.buttons-show{
+    position: absolute;
+right: 18.5%;
+display: flex;
+}
+.back{
+    margin: 0%;
+    margin-bottom: -10%;
+    margin-left: 10%;
+    margin-top: 8%;
+    background-color: rgb(186, 236, 227);
+    color: black;
+    border-color:  rgb(186, 236, 227);
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: rgb(49, 119, 106);;
+    --bs-btn-active-border-color: rgb(49, 119, 106);;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: rgb(49, 119, 106);;
+    --bs-btn-disabled-border-color: rgb(49, 119, 106);;
+}
+.back:hover{
+    
+    background-color: rgb(69, 168, 150);
+    border-color:  rgb(69, 168, 150);
+    fill: white;
+    
+    
+}
+.button.back:active{
+    
+    background-color: rgb(69, 168, 150);
+    border-color:  rgb(69, 168, 150);
+    fill: white;
+    
+    
+}
+#search-again{
+    fill: black;
+}
+#notfound{
+    visibility: hidden;
+    font-size: 0;
+    margin: 0%;
+  
+    }
+    #notfound.notfound{
+        visibility: visible;
+    font-size: 4.5vh;
+    color: whitesmoke;
+    margin: 15%;
+    margin-top: 10%;
+        }

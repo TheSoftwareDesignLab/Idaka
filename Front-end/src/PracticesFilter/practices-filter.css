@@ -1,0 +1,97 @@
+
+.practice{
+    margin:0%;
+    border:0
+}
+#dropdown-basic{
+    background-color: #046a95;
+    border-color: #046a95;
+    margin:2%;
+}
+.filter .dropdown{
+    margin: 1%;
+}
+.filter{    
+    display:block;
+    margin-bottom: 5%;
+    max-width: 20vw;
+    min-width: 20vw;/* 
+    padding: 2%; */
+    margin:2%;
+    background-color: aliceblue;
+    height: fit-content;
+    border-radius: 5px;
+}
+
+.filter h6{
+    font-weight: 600;
+    margin: 3%;
+    margin-top: 5%;
+}
+.filter .accordion{
+    margin: 0%;
+    background-color: aliceblue;;
+--bs-accordion-btn-focus-border-color: rgba(255, 255, 255, 0);
+        --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(217, 219, 221, 0);
+        border-color: rgba(255, 255, 255, 0);
+        border-radius: 5px;
+}
+.filter .accordion-button:not(.collapsed) {
+    background-color: aliceblue;;
+    border-color: rgba(255, 255, 255, 0);
+    border-radius: 5px;
+    padding: 3%;
+    
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+.filter .accordion-item{
+    margin: 0%;
+    background-color: aliceblue;;
+    border: none;
+}
+.filter .accordion-button{
+    margin: 0%;
+    background-color: aliceblue;;
+    padding: 3%;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+h3{
+
+    margin:auto;
+    padding: 0;
+    text-align: "center";
+}
+.contenedor-practices-filter {
+    margin: 5%;
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, auto));
+    width: 70vw;
+}
+#selected-stage-title{
+    color: white;
+    margin-top: 3%;
+    background-color:#0f0f46 ;
+    
+}
+#cbdiv{
+    padding: 5%;
+    padding-top: 1%;
+}
+#item-dd{
+    padding-left: 2%;
+    max-width: 40vw !important;
+    min-width: 40vw !important;
+}
+#cont{
+    display: flex;
+    margin-top: 5%;
+}
+#content-filter .card{
+background-color: rgb(243, 240, 205);
+}
+#content-filter{
+    margin-bottom: 800px;
+}

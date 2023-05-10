@@ -1,0 +1,66 @@
+.Nav.Link{
+    display: flex;
+    position:absolute;
+    width:100%;
+    right:0;
+    text-align:center;
+    margin:auto;
+
+}
+.navbar{
+    font-weight:500;
+    font-family: 'Quicksand', sans-serif;
+    z-index: 24;
+
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 8vh;
+    background-color:rgb(162, 218, 207)
+    ;
+    border-radius: 0px 0px 0px 0px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.40);
+    ; 
+    margin:0;
+}
+.css-eglki6-MuiLinearProgress-root {
+    /* margin-top:4.5%;
+    padding-bottom: -5%; */
+    visibility: hidden;
+    
+    top: 0;;
+    width: 100%;
+    position: fixed;
+
+}
+.css-eglki6-MuiLinearProgress-root.charge {
+/*     margin-top:4.5%;
+    padding-bottom: -5%; */
+    visibility: visible;
+    position: fixed;
+    top: 0;;
+    width: 100%;
+    z-index: 100;
+}
+
+#Sparck-icon{
+    height: 30px;
+    width: auto;
+    margin-right: 5%;
+    margin-bottom: 10%;
+    
+}
+#progress{
+    visibility: hidden;
+    position: fixed;
+    top:0;
+    z-index: 100;
+    width: 100%;
+}
+#progress.charge{
+    visibility: visible;
+    position: fixed;
+    top:0;
+    z-index: 100;
+    width: 100%;
+}
