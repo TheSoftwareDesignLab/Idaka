@@ -7,7 +7,7 @@ the achievement of good performance of ML-enabled systems. Unlike current approa
 <p align="center">
 <iframe width="500" height="282" src="https://www.youtube.com/embed/cEb-AhIPxnM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
-# Idaka workflow overview
+# Idaka functionalities overview
 <p>Three main features are proposed for the user to search according to their needs.
 For the main one, Idaka presents a query based search, it uses 2 possible methodologies.
 First, using a classic IR strategy in which documents relevant to a query are retrieved from a corpus based on a similarity metric.
@@ -22,7 +22,8 @@ takes them to their description and the list of related tasks. By clicking on on
 7 tasks, it shows the associated practices. </p>
 <img src="/assets/imgs/workflow.png" alt="workflow">
 
-
+# Idaka web system
+Idaka as a web system publicly available online on [idaka.onrender.com](https://idaka.onrender.com)
     
 ---
 Hosted on GitHub Pages - Theme by [orderedlist](https://github.com/orderedlist)
