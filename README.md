@@ -2,7 +2,6 @@
 The major goal of Idaka is to facilitate access to good ML practices for SE, helping to avoid pitfalls and challenges that hinder
 the achievement of good performance of ML-enabled systems. Unlike current approaches, Idaka provide the basis of a model that retrieves practices based on the user's query, so the users dont need to know or use predefined vocabulary to search for relevant practices. 
 
-
 # Video
 
 <p align="center">
