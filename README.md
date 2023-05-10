@@ -24,6 +24,24 @@ takes them to their description and the list of related tasks. By clicking on on
 
 # Idaka web system
 Idaka as a web system publicly available online on [idaka.onrender.com](https://idaka.onrender.com)
+
+Also, you can download and compile Idaka locally with the following commands.
+```
+git clone https://github.com/TheSoftwareDesignLab/Idaka.git
+```
+To run the back-end:
+```
+cd Back-end
+npm i
+npm start
+```
+Now by opening another terminal, to run front-end:
+```
+cd Front-end
+npm i
+npm run build
+npm start
+```
     
 ---
 Hosted on GitHub Pages - Theme by [orderedlist](https://github.com/orderedlist)
