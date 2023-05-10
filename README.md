@@ -21,7 +21,7 @@ the platform will show the corresponding practices.</p>
 taxonomy of these mentioned relations. The users can select one of the stages, which
 takes them to their description and the list of related tasks. By clicking on one of the tasks, it shows the associated practices. </p>
 
-<img src="/assets/imgs/workflow.png" alt="workflow">
+<img src="/Idaka/assets/imgs/workflow.png" alt="workflow">
 
 
     
