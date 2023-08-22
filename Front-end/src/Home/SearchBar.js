@@ -1,11 +1,9 @@
 import "./SearchBar.css";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
-import Dropdown from "react-bootstrap/Dropdown";
 import InputGroup from "react-bootstrap/InputGroup";
 import React, { useEffect, useState } from "react";
 export default function SearchBar() {
-let [model,setModel]=useState("IR");
   useEffect(() => {
     fetch("/tasksWithPractices")
       .then((res) => {
@@ -21,7 +19,6 @@ let [model,setModel]=useState("IR");
   }, []);
   let [state, setState] = useState();
   function postSearch() {
-    var btnsearch = document.getElementById("btn-search");
     setTimeout(() => {
       let json=JSON.stringify({'practices':[],'scores':[]})
       localStorage.setItem("search_result",json);
@@ -38,7 +35,6 @@ let [model,setModel]=useState("IR");
     localStorage.setItem("alpaca", "");
     var contenido = document.getElementById("input").value;
     localStorage.setItem("query", contenido);
-    var done=false;
     const postQ = {
       method: "GET",
       headers: {
@@ -46,7 +42,7 @@ let [model,setModel]=useState("IR");
         "Content-Type": "application/json",
       },
     };
-    if(model=="IR"){
+    if(model==="IR"){
       fetch( "/practices/search/" + contenido, postQ)
       .then((res) => {
         return res.json();

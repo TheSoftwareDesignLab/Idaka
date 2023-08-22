@@ -10,7 +10,6 @@ export default function PracticesTask() {
   let [state, setState] = useState([]);
   let [tasks, setTasks] = useState([]);
   let [stage, setStage] = useState();
-  let [selected_stage, setSelectedstage] = useState("Practices");
   let [newPractices, setNewPractices] = useState([]);
   let [allPractices, setAllPractices] = useState([]);
   let [count, setCount] = useState(0);
@@ -36,7 +35,7 @@ export default function PracticesTask() {
         setNewPractices(practices);
         if (event.target.checked) {
           var res = [];
-          if (count != 0) {
+          if (count !== 0) {
             res = state;
           }
 
@@ -45,11 +44,11 @@ export default function PracticesTask() {
           }
           setCount(count + 1);
         } else {
-          if (count == 1) {
+          if (count === 1) {
             res = allPractices;
           } else {
             var temp = state;
-            var res = [];
+            res = [];
             var pract = [];
             for (let pr = 0; pr < practices.length; pr++) {
               pract.push(practices[pr]._id);
@@ -66,10 +65,6 @@ export default function PracticesTask() {
         setState(res);
       });
   };
-  function selectStage(stage) {
-    setSelectedstage("Practices for " + stage.Stage);
-    setTasks(stage.Tasks);
-  }
   function getAllPractices() {
     const url = "/practices";
     fetch(url)
@@ -84,7 +79,6 @@ export default function PracticesTask() {
       });
   }
   var i = -1;
-  var j = 0;
   let ke = 0;
   let validTasks = localStorage.getItem("tasksWithPractices");
   return (
