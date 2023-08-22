@@ -11,9 +11,6 @@ console.log('query-alpaca',req.params.query)
   var respon="Alpaca says: "
   var enviado=false
   var timer=false
- setTimeout(()=>{
-    timer=true  },210000
-  )
 var result=await dalai.request({
   model: "alpaca.7B",
   prompt:  'Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n ### Instruction:\n Give me an enumerated list of best practices for '+req.params.query+' with a description of each of them.\n' ,

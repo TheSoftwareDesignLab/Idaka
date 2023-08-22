@@ -34,13 +34,10 @@ from nltk.stem import WordNetLemmatizer
 if __name__ == '__main__':
     # "Read the Practices from the csv"
     query= str(sys.argv[1])
-    practices = [] 
-    with open('Practices2.csv','r', encoding="ISO-8859-1") as File:  
-         reader = csv.reader(File, delimiter=';')
-         for row in reader:
-             practices.append(row[1])
+    practices = sys.argv[2].split('|')
+
     
-    # print(practices)
+    #print(practices)
     #practices,original_paraphrased=get_docs()
     def get_practices():
         return practices

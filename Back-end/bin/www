@@ -8,27 +8,29 @@ PythonShell.run('./python-setup.py', options,function(err, results){
         if (err) throw err;
         else console.log('results', results);
     });
-
 /**
  * Module dependencies.
  */
 
 var app = require('../app');
 var debug = require('debug')('expressapi:server');
-var http = require('http');
-
+var https = require('https');
+var fs=require('fs');
 /**
  * Get port from environment and store in Express.
  */
 
-var port = normalizePort(process.env.PORT || '3001');
+var port = normalizePort(process.env.PORT || '8080');
 app.set('port', port);
 
 /**
  * Create HTTP server.
  */
 
-var server = http.createServer(app);
+var server = https.createServer({
+  cert: fs.readFileSync('STAR_virtual_uniandes_edu_co.crt'),
+  key:fs.readFileSync('myserver.key')
+},app);
 
 /**
  * Listen on provided port, on all network interfaces.

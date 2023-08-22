@@ -1,8 +1,7 @@
 
-const process = require('process');
+require('dotenv').config()
 const MongoClient = require('mongodb').MongoClient;
-const uri = 'mongodb+srv://lhCabra:90XliwlVOeufRLmK@mlbestpractices.lddweqz.mongodb.net/?retryWrites=true&w=majority';
-
+const uri=process.env.REACT_APP_DB_CONNECTION_STRING
 function MongoUtils() {
   const mu = {};
 

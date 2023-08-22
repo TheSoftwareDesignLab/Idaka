@@ -5,6 +5,12 @@ function getPractices() {
     return client.db('MLBestPractices').collection('Practices').find({}).toArray();
   });
 }
+function getPracticesIR() {
+  return mdbconn.conn().then((client) => {
+    return client.db('MLBestPractices').collection('Practices').find({}).project({'Practice':1,'_id':0}).toArray();
+  });
+}
+
 
 function insertPractice(product) {
   return mdbconn.conn().then((client) => {
@@ -27,4 +33,4 @@ function getPracticesByTask(query) {
   });
 
 }
-module.exports = [getPractices, insertPractice,searchPractices,getPracticesByTask];
+module.exports = [getPractices, insertPractice,searchPractices,getPracticesByTask,getPracticesIR];
