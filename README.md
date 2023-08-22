@@ -1,5 +1,5 @@
 # Idaka
-Download and compile Idaka following the steps.
+Download and compile Idaka by following the steps.
 
 ### 1. Configure the database with MongoDB Atlas
 #### Create the database
