@@ -1,0 +1,38 @@
+{"_id":{"$oid":"6384ae481b75f308226dae16"},"Task":"Define objective"}
+{"_id":{"$oid":"6384ae481b75f308226dae18"},"Task":"Define ethical considerations"}
+{"_id":{"$oid":"6384ae481b75f308226dae19"},"Task":"Define the type of problem to solve."}
+{"_id":{"$oid":"6384ae481b75f308226dae1e"},"Task":"Profiling data"}
+{"_id":{"$oid":"6384ae481b75f308226dae20"},"Task":"Handle noise e.g., unwanted outliers"}
+{"_id":{"$oid":"6384ae481b75f308226dae25"},"Task":"Define the methodology of labeling"}
+{"_id":{"$oid":"6384ae481b75f308226dae2b"},"Task":"Train the model"}
+{"_id":{"$oid":"6384ae481b75f308226dae2c"},"Task":"Check for overfitting or under fitting (root-mean-square error)"}
+{"_id":{"$oid":"6384ae481b75f308226dae2e"},"Task":"Optimize hyperparameters"}
+{"_id":{"$oid":"6384ae481b75f308226dae2f"},"Task":"Run the algorithm with the testing part of the data set"}
+{"_id":{"$oid":"6384ae481b75f308226dae30"},"Task":"Plot learning curves"}
+{"_id":{"$oid":"6384ae481b75f308226dae32"},"Task":"Compare and select the model and hyperparameters that fits better to the problem."}
+{"_id":{"$oid":"6384ae481b75f308226dae34"},"Task":"Deploy the selected model"}
+{"_id":{"$oid":"6384ae481b75f308226dae35"},"Task":"Integrate the model into the process."}
+{"_id":{"$oid":"6384ae481b75f308226dae3a"},"Task":"Implement the model."}
+{"_id":{"$oid":"6384ae481b75f308226dae3e"},"Task":"Support possible errors"}
+{"_id":{"$oid":"6384ae481b75f308226dae1a"},"Task":"Define which models are going to be use"}
+{"_id":{"$oid":"6384ae481b75f308226dae17"},"Task":"Define the 'success criteria'"}
+{"_id":{"$oid":"6384ae481b75f308226dae1b"},"Task":"Define the metrics to use"}
+{"_id":{"$oid":"6384ae481b75f308226dae1f"},"Task":"Data transformation."}
+{"_id":{"$oid":"6384ae481b75f308226dae21"},"Task":"Handle missing data"}
+{"_id":{"$oid":"6384ae481b75f308226dae29"},"Task":"Select features"}
+{"_id":{"$oid":"6384ae481b75f308226dae36"},"Task":"Collect data while in production and compare changes in model inferences."}
+{"_id":{"$oid":"6384ae481b75f308226dae1c"},"Task":"Enhance and augment data"}
+{"_id":{"$oid":"6384ae481b75f308226dae22"},"Task":"Validate data coherence (Benchmark)"}
+{"_id":{"$oid":"6384ae481b75f308226dae23"},"Task":"Divide the data set for next steps"}
+{"_id":{"$oid":"6384ae481b75f308226dae24"},"Task":"Adjust the class distribution of a data set e.g., oversampling, undersampling"}
+{"_id":{"$oid":"6384ae481b75f308226dae27"},"Task":"Audit the labels"}
+{"_id":{"$oid":"6384ae481b75f308226dae28"},"Task":"Define the methodology of extracting and selecting features."}
+{"_id":{"$oid":"6384ae481b75f308226dae2d"},"Task":"Validate the model with the validation set or cross-validation (Calculate the metrics previously defined on the training and the validating sets)."}
+{"_id":{"$oid":"6384ae481b75f308226dae31"},"Task":"Analyze the results"}
+{"_id":{"$oid":"6384ae481b75f308226dae33"},"Task":"Define deployment environment (Storage, size,data retrieval, scalability, feedback)"}
+{"_id":{"$oid":"6384ae481b75f308226dae3b"},"Task":"Experiment design."}
+{"_id":{"$oid":"6384ae481b75f308226dae3c"},"Task":"Test the pipeline, techniques, and models implementation."}
+{"_id":{"$oid":"6384ae481b75f308226dae3d"},"Task":"Present the system to the user"}
+{"_id":{"$oid":"6384ae481b75f308226dae26"},"Task":"Labeling"}
+{"_id":{"$oid":"6384ae481b75f308226dae37"},"Task":"Collect data distribution and compare it from the baseline data distribution"}
+{"_id":{"$oid":"6384ae481b75f308226dae38"},"Task":"Incorporate customers feedback."}
