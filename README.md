@@ -1,4 +1,4 @@
-# Idaka
+![image](https://github.com/TheSoftwareDesignLab/Idaka/assets/60227230/ce69ca06-47c9-44be-90cf-059cbbbdd55c)
 Download and compile Idaka by following the steps.
 
 ### 1. Configure the database with MongoDB Atlas
