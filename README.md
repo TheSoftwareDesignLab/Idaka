@@ -19,9 +19,9 @@ It would be neccesary to create 4 collections: Practices, Queries, Stages, Tasks
 For more details please refer to [MongoDB_Documentation](https://www.mongodb.com/docs/atlas/atlas-ui/collections/)
 #### Collections´ Data Uploads
 The following data needs to be uploaded on their corresponding collections:
-* [Practices](Practices.json)
-* [Stages](Stages.json)
-* [TasksWithPractices](TasksWithPractices.json)
+* [Practices](DB%20Data/Practices.json)
+* [Stages](DB%20Data/Stages.json)
+* [TasksWithPractices](DB%20Data/TasksWithPractices.json)
 
 In order to do this you should go to your collection and click on Insert Document. Select the JSON way to upload, and copy/paste the corresponding data.
 ![image](https://github.com/TheSoftwareDesignLab/Idaka/assets/60227230/30ccc6b1-faf0-48d0-8320-a115afd9401d)
