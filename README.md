@@ -26,23 +26,14 @@ takes them to their description and the list of related tasks. By clicking on on
 # Idaka web system
 Idaka as a web system is publicly available online on [idaka.onrender.com](https://idaka.onrender.com)
 
-Also, you can download and compile Idaka locally with the following commands.
-```
-git clone https://github.com/TheSoftwareDesignLab/Idaka.git
-```
-To run the back-end:
-```
-cd Back-end
-npm i
-npm start
-```
-Now by opening another terminal, to run front-end:
-```
-cd Front-end
-npm i
-npm run build
-npm start
-```
+Also, you can download and compile Idaka locally. For this, please follow the complete instructions that are available in its [Github repository](https://github.com/TheSoftwareDesignLab/Idaka/tree/main). Those instructions will guide you through the processes of:
+
+- Downloading the source code and data.
+- Configuring a database with MobgoDB Atlas, as it is required by the tool.
+- Configuring environment variables.
+- Compiling and deploying Idaka. 
+
+
     
 ---
 Hosted on GitHub Pages - Theme by [orderedlist](https://github.com/orderedlist)
